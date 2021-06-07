@@ -1,0 +1,240 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Yanone+Kaffeesatz&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px
+}
+#outer{
+	width: 100%;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	padding: 20px 0;
+/*	background: rgba(216,151,227,1.00);*/
+}
+.logo{
+	width: 30%;
+	float: left
+}
+.logo img{
+	width: 80%
+}
+.menu {
+	width: 70%;
+	float: right
+}
+.menu ul{
+	list-style: none;
+	text-align: right
+}
+.menu ul li{
+	display: inline-block;
+	line-height: 150px;
+	margin: 0 20px
+}
+.menu ul li a{
+	color: #351717;
+	text-decoration: none;
+	font-weight: bold
+}
+.menu ul li a:hover{
+	color: #A77D52
+}
+.banner{
+	background: #E8E4DF;
+	padding: 60px 0px 0px 0px;
+	margin-top: 80px;
+	text-align: center
+}
+.text-box{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top
+}
+.text-box p{
+	margin-bottom: 30px
+}
+.text-box a{
+	margin: 0 auto
+}
+.text-box a:hover{
+	text-decoration: underline
+}
+.btn{
+	background: #ECA84D;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none
+}
+.img-banner{
+	width: 100%;
+	display: inline-block
+}
+.img-banner img{
+	width: 1000px;
+	margin-top: 100px
+}
+.after-banner{
+	width: 100%;
+	height: 500px;
+/*	background: #D3CECE*/
+}
+.img-human{
+	width: 30%;
+	display: inline-block
+}
+.img-human img{
+	height: 450px;
+	margin-top: 100px
+}
+.text-box-banner{
+	width: 70%;
+	float: right;
+	margin-top: 100px
+}
+.text-box-banner h2{
+	color: #ECA84D;
+	margin-bottom: 20px
+}
+.left{
+/*	background: #EBD0D0;*/
+	width: 45%;
+	height: 300px;
+	float: left;
+	margin-top: 10px
+}
+.left h2{
+	margin-top: 15px
+}
+.right{
+/*	background: #B6EDE5;*/
+	width: 45%;
+	height: 300px;
+	float: right;
+	margin-top: 10px
+}
+.right h2{
+	margin-top: 15px
+}
+.content{
+/*	background: #AD5758;*/
+	padding: 60px 0;
+	margin-top: 20px;
+}
+.cat{
+	background: #F3E5D4;
+	width: 33.33%;
+	height: 300px;
+	float: left
+}
+.img-cat img{
+	height: 250px;
+	float: left;
+	margin-top: 50px
+}
+.text-box-content-cat{
+	text-align: center;
+	margin-top: 150px
+}
+.text-box-content-cat h2{
+	color: #3D3224;
+	margin-bottom: 20px
+}
+.text-box-content-cat a{
+	text-decoration: none;
+	color: white;
+	background: #ECA84D;
+	padding: 10px
+}
+.text-box-content-cat a:hover{
+	text-decoration: underline	
+}
+.dog{
+	background: #CBC2B7;
+	width: 33.33%;
+	height: 300px;
+	float: left
+}
+.img-dog img{
+	height: 300px;
+	float: right
+}
+.text-box-content{
+	text-align: center;
+	margin-top: 150px
+}
+.text-box-content{
+	color: #3D3224
+}
+.text-box-content h2{
+	color: #3D3224;
+	margin-bottom: 20px
+}
+.text-box-content a{
+	text-decoration: none;
+	color: white;
+	background: #ECA84D;
+	padding: 10px;
+	margin-top: 30px
+}
+.text-box-content a:hover{
+	text-decoration: underline
+}
+.small-animal{
+	background:#F5D5AA;
+	width: 33.33%;
+	height: 300px;
+	float: left
+}
+.img-small-animal img{
+	height: 300px;
+	float: right;
+	margin-right: 40px
+}
+.text-footer{
+	width: 100%;
+	height: 300px;
+	background: url("../img/footer.png");
+	background-size: cover;
+	margin-top: 500px
+}
+.left-footer{
+	width: 45%;
+	height: 250px;
+/*	background: #AE595B;*/
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px
+}
+.left-footer h2{
+	color: #ECA84D;	
+}
+.left-footer h3{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px
+}
+.right-footer{
+	width: 45%;
+	height: 250px;
+/*	background: #85B7C0;*/
+	float: right;
+	margin-top: 50px
+}
+.right-footer h2{
+	color: #ECA84D;
+}
+.right-footer h3{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px
+}
